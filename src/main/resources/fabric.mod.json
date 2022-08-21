@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "orderofthetitans",
+  "version": "${version}",
+
+  "name": "Order of the Titans",
+  "description": "",
+  "authors": [
+    "Ideas: ChrisByTheWay - Development: TamSchnow265"
+  ],
+  "contact": {
+    "homepage": "https://github.com/TamSchnow265/Order-of-the-Titans",
+    "sources": "https://github.com/TamSchnow265/Order-of-the-Titans"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/orderofthetitans/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tamschnow265.orderofthetitans.modloader"
+    ],
+    "client": [
+      "net.tamschnow265.orderofthetitans.ModClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
