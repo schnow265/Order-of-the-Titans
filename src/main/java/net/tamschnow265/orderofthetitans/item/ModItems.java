@@ -21,7 +21,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        modloader.LOGGER.debug("Registering Items for " + modloader.MOD_ID);
+        modloader.LOGGER.info("Registering Items for " + modloader.MOD_ID);
     }
 
 }
