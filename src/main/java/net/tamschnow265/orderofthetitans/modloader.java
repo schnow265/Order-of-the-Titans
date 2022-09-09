@@ -1,6 +1,7 @@
 package net.tamschnow265.orderofthetitans;
 
 import net.fabricmc.api.ModInitializer;
+import net.tamschnow265.orderofthetitans.blocks.ModBlocks;
 import net.tamschnow265.orderofthetitans.item.ModItems;
 
 import org.slf4j.Logger;
@@ -23,6 +24,7 @@ public class modloader implements ModInitializer {
 		LOGGER.info("Starting to insert code from the Titans...");
 		
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		//Inform the User that the mod has loaded - for Error checking in the logs
 		LOGGER.info("The Titans' binarys is now inserted into Minecraft");
