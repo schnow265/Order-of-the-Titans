@@ -4,5 +4,10 @@
 
     "itemGroup.orderofthetitans.tanzanite": "Tanzanite",
 
-    "block.orderofthetitans.uranium_block": "Block of Uranium"
+    "block.orderofthetitans.block_uranium": "Block of Uranium",
+    "block.orderofthetitans.tanzanite_block": "Tanzanite Block",
+
+
+    "entity.minecraft.villager.titan_trader": "Titan Trader",
+    "entity.minecraft.villager.lord_trader": "Lord of the Villagers"
 }
