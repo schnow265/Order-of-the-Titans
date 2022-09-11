@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/tanzanite_ore"
+    "all": "orderofthetitans:block/tanzanite_ore"
   }
 }

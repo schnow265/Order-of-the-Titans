@@ -6,6 +6,7 @@ import net.tamschnow265.orderofthetitans.item.ModItems;
 
 import net.tamschnow265.orderofthetitans.villager.LordVillager;
 import net.tamschnow265.orderofthetitans.villager.TitanVillager;
+import net.tamschnow265.orderofthetitans.world.gen.OreGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -29,12 +30,15 @@ public class modloader implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		// First Villager
+		// Villagers
 		TitanVillager.registerVillagers();
 		TitanVillager.registerTrades();
 
 		LordVillager.registerVillagers();
 		LordVillager.registerTrades();
+
+		// OreGens
+		OreGen.generateOres();
 
 		//Inform the User that the mod has loaded - for Error checking in the logs
 		LOGGER.info("The Titans' binarys is now inserted into Minecraft");

@@ -75,19 +75,20 @@ jar {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = "org.company"
-            artifactId = "sample"
-            version = "0.9-SNAPSHOT"
+            groupId = "org.tamschnow265"
+            artifactId = "orderofthetitans"
+            version = mod_version
             from components.java
         }
     }
-    repositories {
-        maven {
-            url "https://maven.pkg.jetbrains.space/tamschnow265/p/oott/maven"
-            credentials {
-                username = spaceUsername
-                password = spacePassword
+        repositories {
+            maven {
+                name = "GitHubPackages"
+                url = "https://maven.pkg.github.com/tamschnow265/order-of-the-titans"
+                credentials {
+                    username = System.getenv("tamschnow265")
+                    password = System.getenv("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")
+                }
             }
         }
-    }
 }

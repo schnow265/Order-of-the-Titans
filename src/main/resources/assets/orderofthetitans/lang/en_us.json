@@ -6,7 +6,10 @@
 
     "block.orderofthetitans.block_uranium": "Block of Uranium",
     "block.orderofthetitans.tanzanite_block": "Tanzanite Block",
-
+    "block.orderofthetitans.tanzanite_ore": "Tanzanite Ore",
+    "block.orderofthetitans.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
+    "block.orderofthetitans.endstone_tanzanite_ore": "End Tanzanite Ore",
+    "block.orderofthetitans.netherrack_tanzanite_ore": "Nether Tanzanite Ore",
 
     "entity.minecraft.villager.titan_trader": "Titan Trader",
     "entity.minecraft.villager.lord_trader": "Lord of the Villagers"

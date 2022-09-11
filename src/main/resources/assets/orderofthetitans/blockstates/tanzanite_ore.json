@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "tutorialmod:block/tanzanite_ore" }
+    "": { "model": "orderofthetitans:block/tanzanite_ore"}
   }
 }

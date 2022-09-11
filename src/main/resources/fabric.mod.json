@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Order of the Titans",
-  "description": "",
+  "description": "We are back and we are angry!",
   "authors": [
     "ChrisByTheWay and TamSchnow265"
   ],
@@ -13,7 +13,7 @@
     "sources": "https://github.com/TamSchnow265/Order-of-the-Titans"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/orderofthetitans/icon.png",
 
   "environment": "*",
