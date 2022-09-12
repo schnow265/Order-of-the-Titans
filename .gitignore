@@ -16,6 +16,7 @@ classes/
 *.ipr
 *.iws
 *.lock
+*.lst
 
 # vscode
 
@@ -32,6 +33,7 @@ bin/
 # fabric
 
 run/
+remappedSrc/
 
 # snowinc.
 oldArchive/

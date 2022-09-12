@@ -31,7 +31,7 @@ public class ConfigFeatures {
             ConfiguredFeatures.register("end_tanzanite_ore",Feature.ORE, new OreFeatureConfig(END_TANZANITE_ORES, 12));
 
     public static void registerConfiguredFeatures() {
-        modloader.LOGGER.debug("Registering the ModConfiguredFeatures for " + modloader.MOD_ID);
+        modloader.LOGGER.info("Registering the crap Mod ConfigFeatures (OreGeneration) for " + modloader.MOD_ID);
     }
 
 }
