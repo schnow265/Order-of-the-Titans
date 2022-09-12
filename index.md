@@ -1,3 +1,9 @@
 # Order of the Titans
 
-[Link](https://tamschnow265.github.io/Order-of-the-Titans/Villager.md)
+
+
+
+## Die Villager
+
+Tja... die guten alten Villager.
+Die haben heute mal viel zeug im Angebot, und es kann schnell unübersichtlich werden, aber man kann sich **Netherite** ertraden!
